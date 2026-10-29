@@ -4,10 +4,10 @@
 
 ### Every agent leaves a trace.
 
-Open-source observability and telemetry for AI agents.
+Open-source testing, evaluation, and reliability for AI agents.
 
-Understand how your agents behave, investigate failures,
-and build more reliable AI systems.
+Test agent behavior, understand failures,
+and catch regressions before deployment.
 
 </div>
 
@@ -15,44 +15,46 @@ and build more reliable AI systems.
 
 ## What is Thadam?
 
-Thadam is an open-source project focused on making
-AI agent execution observable, understandable, and reliable.
+Thadam helps developers test AI agents across realistic scenarios,
+check expected behavior, and investigate failures.
 
-Our goal is to help developers understand what happens
-inside AI agent workflows.
+Our goal is to make testing AI agents as straightforward
+as testing traditional software.
 
 ## What We're Building
 
-- Agent execution tracing
-- Tool call monitoring
-- Token usage and latency tracking
-- Agent trajectory visualization
-- Failure investigation
-- Automated evaluation and regression detection
+Our first milestone is a local Python testing framework with:
+
+- A Python SDK and CLI
+- Custom Python agent support and a LangGraph integration
+- Reusable test scenarios and developer-defined assertions
+- Execution traces, tool-call records, and error details
+- Clear test results and actionable failure reports
 
 ## Our Approach
 
-We're building Thadam with open standards and
-interoperability in mind.
+Tests should run alongside your application and fit into
+your existing development workflow.
 
-Our initial focus is OpenTelemetry-based instrumentation,
-with support for popular agent frameworks and custom agents.
+Developers define expected behavior through assertions,
+evaluation contracts, or environment verifiers.
+Thadam runs the scenarios and captures the evidence
+needed to understand each result.
 
 ## Project Status
 
-🚧 Early Development
+🚧 Pre-MVP — building the first testing engine.
 
-Thadam is currently under active development.
+The SDK and CLI are under development.
+The capabilities described above are planned.
 
-We're starting with an open-source foundation and
-exploring advanced reliability capabilities.
+## Get Involved
 
-## Open Source
+We're starting with an open-source foundation.
 
-We believe developers should be able to understand,
-debug, and evaluate their AI systems without vendor lock-in.
+Feedback, use cases, and contributions are welcome.
 
-Contributions, feedback, and discussions are welcome.
+→ [Explore the repository](https://github.com/thadam-ai/thadam)
 
 ---
 
